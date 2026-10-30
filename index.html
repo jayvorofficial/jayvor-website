@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <meta name="description" content="JAYVOR — Define Your Legacy. Premium streetwear and oversized essentials.">
+  <title>JAYVOR — Define Your Legacy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">INTRODUCING THE JAYVOR SIGNATURE COLLECTION <span>✦</span> BUILT TO DEFINE YOUR LEGACY</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="JAYVOR home">
+      <span class="brand-mark">J<span>V</span></span>
+      <span class="brand-word">JAYVOR<small>DEFINE YOUR LEGACY</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">HOME</a><a href="#collection">COLLECTION</a><a href="#story">OUR STORY</a><a href="#contact">CONTACT</a>
+    </nav>
+    <button class="cart-button" id="openCart" aria-label="Open shopping bag">BAG <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">THE NEW STANDARD OF STREETWEAR</p>
+        <div class="eagle-seal" aria-hidden="true"><span>✦</span><b>J</b><span>✦</span></div>
+        <h1>DEFINE<br><em>YOUR LEGACY.</em></h1>
+        <p class="hero-copy">Not made to follow. Made to stand apart.<br>Discover the JAYVOR signature look.</p>
+        <a class="button button-light" href="#collection">EXPLORE COLLECTION <span>↗</span></a>
+      </div>
+      <div class="hero-side">JAYVOR / EST. 2026</div>
+      <div class="hero-bottom"><span>01 — SIGNATURE STREETWEAR</span><span>SCROLL TO DISCOVER ↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Brand statement"><div>JAYVOR ✦ PREMIUM STREETWEAR ✦ DEFINE YOUR LEGACY ✦ JAYVOR ✦ PREMIUM STREETWEAR ✦ DEFINE YOUR LEGACY ✦</div></section>
+
+    <section class="collection section-wrap" id="collection">
+      <div class="section-heading">
+        <div><p class="eyebrow">CURATED FOR THE FEARLESS</p><h2>THE SIGNATURE<br><em>COLLECTION.</em></h2></div>
+        <p class="section-note">Clean silhouettes. Confident details.<br>Everyday pieces with a distinct presence.</p>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card">
+          <div class="product-image image-one"><span class="product-label">SIGNATURE</span><div class="shirt-art"><span>J</span></div><button class="quick-add" data-product="0">QUICK ADD +</button></div>
+          <div class="product-info"><div><h3>Legacy Oversized Tee</h3><p>Jet Black · Signature silver mark</p></div><strong>₹799</strong></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-two"><span class="product-label">NEW DROP</span><div class="shirt-art shirt-art-two"><span>JAYVOR</span></div><button class="quick-add" data-product="1">QUICK ADD +</button></div>
+          <div class="product-info"><div><h3>Royal Eagle Tee</h3><p>Black · Eagle back graphic</p></div><strong>₹899</strong></div>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-three"><span class="product-label">ESSENTIAL</span><div class="shirt-art shirt-art-three"><span>DEFINE<br>YOUR<br>LEGACY</span></div><button class="quick-add" data-product="2">QUICK ADD +</button></div>
+          <div class="product-info"><div><h3>Legacy Statement Tee</h3><p>Black · Silver statement print</p></div><strong>₹849</strong></div>
+        </article>
+      </div>
+      <p class="demo-note">Preview collection — product photos, sizes, stock and prices can be updated before launch.</p>
+    </section>
+
+    <section class="manifesto" id="story">
+      <div class="manifesto-art"><div class="crest"><span>✦</span><b>J</b><small>JAYVOR<br>EST. 2026</small></div></div>
+      <div class="manifesto-copy"><p class="eyebrow">MORE THAN A LABEL</p><h2>WEAR YOUR<br><em>OWN STORY.</em></h2><p>JAYVOR is built around individuality, confidence and timeless streetwear. Every detail has a purpose. Every piece carries an attitude: define your legacy, your way.</p><a class="text-link" href="#collection">DISCOVER THE COLLECTION <span>↗</span></a></div>
+    </section>
+
+    <section class="values section-wrap">
+      <div><span>01</span><h3>BUILT ON IDENTITY</h3><p>Distinctive designs made to express who you are.</p></div>
+      <div><span>02</span><h3>LESS, BUT BETTER</h3><p>Focused essentials with a clean, confident look.</p></div>
+      <div><span>03</span><h3>YOUR LEGACY</h3><p>Wear what represents you. Never just blend in.</p></div>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <p class="eyebrow">STAY IN THE JAYVOR WORLD</p><h2>THE NEXT DROP<br><em>STARTS HERE.</em></h2>
+      <p>For product questions, collaborations and updates, get in touch.</p>
+      <a class="button button-outline" href="mailto:hello@jayvor.in">CONTACT JAYVOR <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#home">JAYVOR<span>®</span></a><p>DEFINE YOUR LEGACY.</p><small>© <span id="year"></span> JAYVOR. ALL RIGHTS RESERVED.</small><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag">
+    <div class="cart-head"><h2>YOUR BAG</h2><button id="closeCart" aria-label="Close bag">✕</button></div>
+    <div id="cartItems" class="cart-items"><p class="empty-cart">Your bag is waiting for something iconic.</p></div>
+    <div class="cart-footer"><div class="subtotal"><span>SUBTOTAL</span><strong id="subtotal">₹0</strong></div><p>Shipping and final order confirmation are arranged separately.</p><button class="button button-light checkout-button" id="checkoutBtn">ENQUIRE TO ORDER ↗</button></div>
+  </aside>
+
+  <div class="modal-backdrop" id="sizeModal">
+    <div class="size-modal"><button class="modal-close" id="closeSize">✕</button><p class="eyebrow">SELECT YOUR FIT</p><h2 id="modalProduct">JAYVOR TEE</h2><div class="sizes"><button>S</button><button>M</button><button>L</button><button>XL</button><button>XXL</button></div><button class="button button-light" id="confirmAdd">ADD TO BAG</button></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
